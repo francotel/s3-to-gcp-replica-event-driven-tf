@@ -56,3 +56,11 @@ The `Makefile` simplifies working with Terraform and GCP. Ensure you are on macO
    ```bash
    make login
    ```
+
+### 🌟 Additional Notes
+- AWS Authentication: Use a preconfigured aws profile.
+- GCP Authentication: Already done via gcloud auth application-default login.
+
+### Future Improvements:
+Integrate CI/CD pipelines for automated deployments.
+Add scripts to validate data replication.
