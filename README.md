@@ -71,7 +71,9 @@ This section contains visual evidence and screenshots to validate the implementa
 
 ![gcp-jobs-gcp](drawio/gcp-jobs.png)
 
-![alt text](drawio/gcp-listen-event.png)
+![gcp-listen](drawio/gcp-listen-event.png)
+
+![sqs-status](drawio/sqs-monitor.png)
 
 ## 🤝 **Let's Connect!**
 
