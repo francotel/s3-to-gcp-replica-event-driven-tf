@@ -65,12 +65,19 @@ The `Makefile` simplifies working with Terraform and GCP. Ensure you are on macO
 Integrate CI/CD pipelines for automated deployments.
 Add scripts to validate data replication.
 
+# 📂 Evidence and Screenshots
+
+This section contains visual evidence and screenshots to validate the implementation and functionality of the project.
+
+![gcp-jobs-gcp](drawio/gcp-jobs.png)
+
+![alt text](drawio/gcp-listen-event.png)
 
 ## 🤝 **Let's Connect!**
 
 If you find this repository useful and want to see more content like this, follow me on LinkedIn to stay updated on more projects and resources!
 
-[![LinkedIn](https://seeklogo.com/images/L/linkedin-logo-E871D8437B-seeklogo.com.png)](https://www.linkedin.com/in/franconavarro/)
+[![LinkedIn](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2F6n0txk0zfofh94t4rza7.png)](https://www.linkedin.com/in/franconavarro/)
 
 If you’d like to support my work, you can buy me a coffee. Thank you for your support!
 

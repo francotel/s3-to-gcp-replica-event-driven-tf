@@ -124,6 +124,10 @@ resource "google_storage_transfer_job" "s3-bucket-one-off" {
     ]
   }
 
+  depends_on = [
+    module.s3-bucket.s3_bucket_id
+  ]
+
 }
 
 resource "google_storage_transfer_job" "s3-bucket-event-driven" {
@@ -153,5 +157,7 @@ resource "google_storage_transfer_job" "s3-bucket-event-driven" {
       transfer_spec[0].aws_s3_data_source[0].aws_access_key
     ]
   }
-
+  depends_on = [
+    module.s3-bucket.s3_bucket_id
+  ]
 }
